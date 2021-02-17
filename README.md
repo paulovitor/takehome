@@ -4,7 +4,7 @@ Este exercício é para a vaga de Software Engineer da Brasil Paralelo, e tem fo
 
 Após ler o Briefing abaixo, escreva o código e testes para implementar a funcionalidade solicitada em Clojure, conforme repositório. Há um código inicial que você poderá utilizar se quiser como base em `src/takehome/core.clj`, assim como alguns testes iniciais em `test/takehome/core_test.clj`. Há também uma listagem de produções, que poderá copiar para seus testes, em `resources/content-database.edn`.
 
-Você precisará ter instalado java e as ferramentas de linha de comando de clojure, conforme https://clojure.org/guides/getting_started. Você poderá rodar os testes com `clj -Atest`. Utilize Git para separar os commits. Compacte o repositório num .zip, e entregue por e-mail para konrad@brasilparalelo.com.br.
+Você precisará ter instalado java e as ferramentas de linha de comando de clojure, conforme https://clojure.org/guides/getting_started. Você poderá rodar os testes com `clj -Mtest`. Utilize Git para separar os commits. Compacte o repositório num .zip, e entregue por e-mail para konrad@brasilparalelo.com.br.
 
 # Briefing
 
