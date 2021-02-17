@@ -12,4 +12,5 @@
         (o/is-series? object) true
         (and (m/is-patriota? object purchase) (m/is-active? object purchase)) true
         (and (m/is-premium? object purchase) (m/is-active? object purchase)) true
+        (and (m/is-mecenas? object purchase) (m/is-active? object purchase)) true
         :else false))

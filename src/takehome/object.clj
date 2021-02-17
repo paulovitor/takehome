@@ -12,3 +12,8 @@
       (case (:type object)
             (:podcast :debate :interview :course) true
             false))
+
+(defn mecenas-can-access? [object]
+      (case (:type object)
+            (:podcast :debate :interview :course :patron) true
+            false))
